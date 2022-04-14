@@ -7048,14 +7048,13 @@ web3-core-helpers@1.3.6:
     web3-eth-iban "1.3.6"
     web3-utils "1.3.6"
 
-web3-core-helpers@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/web3-core-helpers/-/web3-core-helpers-1.4.0.tgz#5cbed46dd325b9498f6fafb15aed4a4295cce514"
-  integrity sha512-8Ebq0nmRfzw7iPoXbIRHEWOuPh+1cOV3OOEvKm5Od3McZOjja914vdk+DM3MgmbSpDzYJRFM6KoF0+Z/U/1bPw==
+web3-core-helpers@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/web3-core-helpers/-/web3-core-helpers-1.5.0.tgz#bca7645aaf2f22910df15d6d359e7f466b5d65ca"
+  integrity sha512-7s5SrJbG5O0C0Oi9mqKLYchco72djZhk59B7kTla5vUorAxMc99SY7k9BoDgwbFl2dlZon2GtFUEW2RXUNkb1g==
   dependencies:
-    underscore "1.12.1"
-    web3-eth-iban "1.4.0"
-    web3-utils "1.4.0"
+    web3-eth-iban "1.5.0"
+    web3-utils "1.5.0"
 
 web3-core-method@1.3.6:
   version "1.3.6"
@@ -7097,14 +7096,13 @@ web3-core-subscriptions@1.3.6:
     underscore "1.12.1"
     web3-core-helpers "1.3.6"
 
-web3-core-subscriptions@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/web3-core-subscriptions/-/web3-core-subscriptions-1.4.0.tgz#ec44e5cfe7bffe0c2a9da330007f88e08e1b5837"
-  integrity sha512-/UMC9rSLEd0U+h6Qanx6CM29o/cfUyGWgl/HM6O/AIuth9G+34QBuKDa11Gr2Qg6F8Lr9tSFm8QIGVniOx9i5A==
+web3-core-subscriptions@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/web3-core-subscriptions/-/web3-core-subscriptions-1.5.0.tgz#c7f77fc0db061cd9290987b08540f91e9d4b8bca"
+  integrity sha512-dx9P1mZvJkQRiYpSo9SvFhYNzy5E9GHeLOc3uqxPaDxKU7Cu9fJnFHo/P6+wfD6ZhGIP23ZLK/uyor5UpdTqDQ==
   dependencies:
     eventemitter3 "4.0.4"
-    underscore "1.12.1"
-    web3-core-helpers "1.4.0"
+    web3-core-helpers "1.5.0"
 
 web3-core@1.3.6:
   version "1.3.6"
@@ -7183,13 +7181,13 @@ web3-eth-iban@1.3.6:
     bn.js "^4.11.9"
     web3-utils "1.3.6"
 
-web3-eth-iban@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/web3-eth-iban/-/web3-eth-iban-1.4.0.tgz#b54902c019d677b6356d838b3e964f925017c143"
-  integrity sha512-YNx748VzwiBe0gvtZjvU9BQsooZ9s9sAlmiDWJOMcvMbUTDhC7SvxA7vV/vrnOxL6oGHRh0U/azsYNxxlKiTBw==
+web3-eth-iban@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/web3-eth-iban/-/web3-eth-iban-1.5.0.tgz#8c3a1aa7aeed4080ba7d077612ce17025eb0d67d"
+  integrity sha512-cFfiPA8xs4lemMJjDb9KfXzPvs6rBrRl8y4rgvh/JWlZZgKolzo7KLXq4NR3oFd/C81s0Lslvz2st1EREp5CNA==
   dependencies:
     bn.js "^4.11.9"
-    web3-utils "1.4.0"
+    web3-utils "1.5.0"
 
 web3-eth-personal@1.3.6:
   version "1.3.6"
@@ -7294,6 +7292,19 @@ web3-utils@1.4.0:
     number-to-bn "1.7.0"
     randombytes "^2.1.0"
     underscore "1.12.1"
+    utf8 "3.0.0"
+
+web3-utils@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/web3-utils/-/web3-utils-1.5.0.tgz#48c8ba0d95694e73b9a6d473d955880cd4758e4a"
+  integrity sha512-hNyw7Oxi6TM3ivXmv4hK5Cvyi9ML3UoKtcCYvLF9woPWh5v2dwCCVO1U3Iq5HHK7Dqq28t1d4CxWHqUfOfAkgg==
+  dependencies:
+    bn.js "^4.11.9"
+    eth-lib "0.2.8"
+    ethereum-bloom-filters "^1.0.6"
+    ethjs-unit "0.1.6"
+    number-to-bn "1.7.0"
+    randombytes "^2.1.0"
     utf8 "3.0.0"
 
 web3@*, web3@1.3.6:
